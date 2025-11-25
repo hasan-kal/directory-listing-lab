@@ -1,4 +1,4 @@
-
+# Simple script using curl to demo directory listing vulnerability
 #!/bin/sh
 # Simple attacker script that demonstrates enumerating files via directory listing
 TARGET_URL="http://vuln-web"
