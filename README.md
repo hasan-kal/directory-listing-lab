@@ -23,12 +23,10 @@ I chose this concept because it is beginner-friendly and easy to demonstrate vis
 
 ### 1. **web** (nginx)
 
-- Runs an nginx server
-- Directory listing (`autoindex`) is intentionally turned **on**
-- Contains:
-  - `index.html`
-  - `notes.txt`
-  - `secret-config.txt` (fake secret file)
+It contains the following demo files inside the www folder:
+- home.html
+- notes.txt
+- secret-config.txt
 
 ### 2. **attacker** (alpine + curl)
 
@@ -85,5 +83,7 @@ docker logs attacker
 
 I wanted to create something simple that I can fully understand and clearly explain.  
 This concept is easy to show, easy to understand, and teaches an important real-world lesson.
+
+I kept this project very simple so that I could fully understand the vulnerability and explain it properly in my video.
 
 ---
